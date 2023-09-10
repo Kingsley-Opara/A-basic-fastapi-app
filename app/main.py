@@ -10,7 +10,7 @@ async def home(slack_name: str = 'Kingsley Udochukwu', track: str = 'backend'):
         "current_day": "Saturday",
         "utc_time": datetime.utcnow(),
         "track": track,
-        "github": 'https://github.com/Kingsley-Opara',
+        "github_file_url": 'https://github.com/Kingsley-Opara/A-basic-fastapi-app/blob/main/app/main.py',
         "github_repo_url": "https://github.com/Kingsley-Opara/A-basic-fastapi-app/",
         "status_code": 200
 
