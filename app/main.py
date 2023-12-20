@@ -7,8 +7,7 @@ today = date.today()
 app = FastAPI()
 
 def get_the_current_weekday():
-    weekday = today.weekday()
-    if weekday == 0:
+    if (weekday := today.weekday()) == 0:
         return 'Monday'
     elif weekday == 1:
         return 'Tuesday'
